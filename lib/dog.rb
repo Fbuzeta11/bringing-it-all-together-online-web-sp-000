@@ -38,7 +38,8 @@ class Dog
   end
 end
 
-  def self.create 
+  def self.create(hast_of_attributes) 
+    
     
   end
   
