@@ -7,6 +7,8 @@ class Dog
     self.id ||= nil
   end
   
-  def 
+  def self.create_table
+    
+  end
   
 end
