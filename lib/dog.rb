@@ -40,7 +40,8 @@ end
 
   def self.create(hast_of_attributes) 
     dog = self.new(hash_of_attributes)
-    
+    dog.save
+    dog
   end
   
 end
