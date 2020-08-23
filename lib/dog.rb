@@ -50,7 +50,7 @@ end
       :name => row[1],
       :breed => row[2]
     }
-    
+    self.new(attributes)
     }
   
 end
