@@ -45,6 +45,8 @@ end
   end
   
   def self.new_from_db(row)
-    hash_attributes 
+    hash_attributes {
+      :id
+    }
   
 end
